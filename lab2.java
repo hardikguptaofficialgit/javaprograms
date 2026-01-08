@@ -143,6 +143,41 @@
 //        r.display();
 //    }
 //}
+//
+//1. Aim of the program : A Plastic manufacturer sells plastic in different shapes like 2D sheet and 3D box.
+// The cost of sheet is Rs 40/ per square ft. and the cost of box is Rs 60/ per cubic ft. Implement it in Java to calculate the cost of plastic as per the dimensions given by the user where 3D inherits from 2D.
+//Input: Enter  dimensions
+//Output:  Display the cost of plastic
 
 
+    class 2dsheet {
+        double length , width ;
+        sheet2d(double l , double w){
+            length=l;
+            width=w;
+            }
+            double cost {
+            double area=length*width ;
+            return area*40 ;
+            }
+        }
+ class 3dbox(double l , double w , double h ) {
 
+        super(l,w);
+        height =h ;
+
+
+        3dboxsetcost(length , width , height) {
+            double cost {
+                double volume = length * width * height ;
+                return volume*60 ;
+            }
+
+        }
+
+    }
+
+    public class plasticmanugfact{
+        public static void main (String[] args ) {
+            int sheet , box ;
+            public class main
