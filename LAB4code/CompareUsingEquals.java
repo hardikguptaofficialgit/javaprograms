@@ -14,7 +14,7 @@ class Student {
     }
 }
 
-public class EqualsDemo {
+public class CompareUsingEquals {
     public static void main(String[] args) {
         Student s1 = new Student(101, "Aman");
         Student s2 = new Student(101, "Aman");
