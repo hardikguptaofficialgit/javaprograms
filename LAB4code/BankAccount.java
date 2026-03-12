@@ -32,7 +32,6 @@ class Account {
     }
 }
 
-class PremiumAccount
 class StandardAccount extends Account {
     StandardAccount(String name, double balance, int d, int m, int y) {
         super(name, "Standard", balance, d, m, y);
@@ -69,7 +68,7 @@ class PremiumAccount extends Account {
     }
 }
 
-public class BankAccount {
+public class BankAccount{
     public static void main(String[] args) {
         Account a1 = new StandardAccount("Rahul", 800000, 1, 1, 2026);
         Account a2 = new PremiumAccount("Anita", 2000000, 2, 1, 2026);

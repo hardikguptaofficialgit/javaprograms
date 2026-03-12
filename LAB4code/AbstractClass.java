@@ -19,10 +19,10 @@ class Kiitian extends Student {
     }
 }
 
-public class AbstractDemo {
+public class AbstractClass{
     public static void main(String[] args) {
         Kiitian k = new Kiitian();
-        k.getinput(2205180, 1234567890L);
+        k.getinput(24155627, 1234567890L);
 
         System.out.println("Rollno - " + k.rollno);
         System.out.println("Registration no - " + k.regno);
